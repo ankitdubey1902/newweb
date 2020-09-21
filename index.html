@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://www.w3schools.com/lib/w3-theme-black.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body id="myPage">
+    <!--Header Section-->
+    <div class="header_menu_main">
+      <div class="ip">
+        YOUR IP :
+        <span class="ip_span" id="ip"></span>
+        <!-- <p id="ip"></p> -->
+      </div>
+      <div class="ip">
+        YOUR LOCATION :
+        <span class="ip_span" id="location"></span>
+      </div>
+      <ul class="header_menu">
+        <li><a class="menu_link" href="#">Home</a></li>
+        <li><a class="menu_link" href="#">Introduction</a></li>
+        <li><a class="menu_link" href="#">Industrial Processes</a></li>
+        <li><a class="menu_link" href="#">Materials and application</a></li>
+        <li><a class="menu_link" href="#">Basic Chemicals</a></li>
+        <li><a class="menu_link" href="#">Polymers</a></li>
+        <li><a class="menu_link" href="#">Metals</a></li>
+      </ul>
+    </div>
+    <!-- <header class="site-headers"> -->
+    <section>
+      <div class="site-section">
+        <h1>The Essential Chemical Industry - online</h1>
+        <p>
+          This is a reference library of the world’s principal industrial
+          chemicals, their uses and their manufacture using current industrial
+          processes and innovations.
+        </p>
+        <button>Welcome</button>
+      </div>
+    </section>
+    <!-- </header> -->
+    <!--End Header Section-->
+    <!--Main Section-->
+    <main>
+      <!-- Sidebar on click -->
+      <nav
+        class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge"
+        style="display: none; z-index: 2"
+        id="mySidebar"
+      >
+        <a
+          href="javascript:void(0)"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-display-topright w3-text-teal"
+          >Close
+          <i class="fa fa-remove"></i>
+        </a>
+        <a href="#" class="w3-bar-item w3-button">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a>
+        <a href="#" class="w3-bar-item w3-button">Link 4</a>
+        <a href="#" class="w3-bar-item w3-button">Link 5</a>
+      </nav>
+      <!-- Team Container -->
+      <div class="w3-container w3-padding-32 w3-center w3-panel" id="team">
+        <h2 class="w3-center w3-margin-top">
+          Welcome to The Essential Chemical Industry - online
+        </h2>
+        <h5 style="text-align: justify">
+          This is a reference library of the world’s principal industrial
+          chemicals, their uses and their manufacture using current industrial
+          processes and innovations. This new web-based edition was first
+          developed in 2013 from the book of the same title, which went through
+          five editions. It is intended for:
+          <br />
+          1. school, college and university students and their teachers<br />
+          2. industrial chemists and employees of chemical companies needing a
+          quick reference or overview
+        </h5>
+      </div>
+
+      <div class="w3-container w3-padding-32 w3-center w3-panel" id="team">
+        <h2>About the The Essential Chemical Industry - online</h2>
+        <h5 style="text-align: justify">
+          TThe Essential Chemical Industry (ECI) - online is one of the most
+          highly respected and up-to-date resources about the chemical industry.
+          This innovative website has easy cross-referencing and drill-down
+          capability and achieves a new level of access for the student,
+          researcher and industrial chemist alike.
+        </h5>
+      </div>
+      <!-- Work Row -->
+      <div
+        class="w3-row-padding w3-padding-48 w3-margin-top w3-theme-l1"
+        id="work"
+      >
+        <div class="w3-quarter">
+          <h2>Using this web site</h2>
+          <p>
+            There are 77 concise units, written and illustrated so that you can
+            ‘dip in’ to them to retrieve the information you need. Although the
+            units are self-contained, you will find that throughout this web
+            site there are cross-references to material in other units, which is
+            easily obtained by the designated hyperlinks. There is also a
+            facility which allows you to search the whole site. This provides a
+            link to each of the units in which the search term appears, then
+            within a unit, Ctrl f can be used to locate each instance of the
+            term's appearance. These approaches to cross-referencing and
+            searching will help you to follow up related topics and to explore
+            more widely. There is an overview of the Chemical Industry which
+            looks at the industry in an international context. The other 76
+            units are presented in five thematic groups:.
+          </p>
+        </div>
+
+        <div class="w3-quarter">
+          <div class="w3-card w3-white">
+            <img
+              src="img/industrial-process.jpg"
+              alt="Industrail processes"
+              style="width: 100%"
+            />
+            <div class="w3-container">
+              <h3>Iddustrial Process</h3>
+              <h4>Trade</h4>
+              <p>Blablabla</p>
+              <p>Blablabla</p>
+              <p>Blablabla</p>
+              <p>Blablabla</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-quarter">
+          <div class="w3-card w3-white">
+            <img
+              src="img/materials&app.jfif"
+              alt="Materials"
+              style="width: 100%"
+            />
+            <div class="w3-container">
+              <h3>Material and Apllication</h3>
+              <h4>Trade</h4>
+              <p>Blablabla</p>
+              <p>Blablabla</p>
+              <p>Blablabla</p>
+              <p>Blablabla</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-quarter">
+          <div class="w3-card w3-white">
+            <img
+              src="img/basic-chemicals.jpg"
+              alt="Chemicals"
+              style="width: 100%"
+            />
+            <div class="w3-container">
+              <h3>Basic Chemicals</h3>
+              <h4>Trade</h4>
+              <p>Blablabla</p>
+              <p>Blablabla</p>
+              <p>Blablabla</p>
+              <p>Blablabla</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-quarter w3-padding-24">
+          <div class="w3-card w3-white">
+            <img src="img/polymer.jfif" alt="Polymers" style="width: 100%" />
+            <div class="w3-container">
+              <h3>Polymers</h3>
+              <h4>Trade</h4>
+              <p>Blablabla</p>
+              <p>Blablabla</p>
+              <p>Blablabla</p>
+              <p>Blablabla</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-quarter w3-padding-24">
+          <div class="w3-card w3-white">
+            <img src="img/metals.jfif" alt="Metals" style="width: 100%" />
+            <div class="w3-container">
+              <h3>Metals</h3>
+              <h4>Trade</h4>
+              <p>Blablabla</p>
+              <p>Blablabla</p>
+              <p>Blablabla</p>
+              <p>Blablabla</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--End Main Section-->
+    <!--footer Section-->
+    <script src="js.js"></script>
+    <!--End footer Section-->
+  </body>
+</html>
