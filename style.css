@@ -108,7 +108,7 @@ section {
   background-position: right top;
   background-attachment: fixed;
   background-size: cover;
-  /* clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 100%); */
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 100%);
   /* clip-path: polygon(100% 0%, 75% 100%, 0% 100%, 0% 0%); */
 }
 
